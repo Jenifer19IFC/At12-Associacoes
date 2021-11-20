@@ -1,0 +1,47 @@
+package Att03;
+
+public class Banco {
+	
+	private int codigo;
+	private String nome;
+	private int numeroAgencia;
+	
+	public int getCodigo() {
+		return codigo;
+	}
+	public void setCodigo(int codigo) {
+		if(codigo > 0)
+			this.codigo = codigo;
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		if(nome.length() > 0)
+			this.nome = nome;
+	}
+	
+	public int getNumeroAgencia() {
+		return numeroAgencia;
+	}
+	public void setNumeroAgencia(int numeroAgencia) {
+		if(numeroAgencia > 0)
+			this.numeroAgencia = numeroAgencia;
+	}
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Banco [codigo=");
+		builder.append(codigo);
+		builder.append(", nome=");
+		builder.append(nome);
+		builder.append(", numeroAgencia=");
+		builder.append(numeroAgencia);
+		builder.append("]");
+		return builder.toString();
+	}
+	
+	
+
+}
