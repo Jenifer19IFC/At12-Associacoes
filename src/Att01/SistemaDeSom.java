@@ -1,5 +1,7 @@
-public class SistemaDeSom extends EquipamentoEletronico {
+package Att01;
 
+public class SistemaDeSom extends EquipamentoEletronico {
+	
 	private String marca;
 	private String modelo;
 	private float potencia;
@@ -40,4 +42,5 @@ public class SistemaDeSom extends EquipamentoEletronico {
 		builder.append("]");
 		return builder.toString();
 	}
+
 }

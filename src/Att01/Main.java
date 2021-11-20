@@ -1,7 +1,9 @@
+package Att01;
+
 public class Main {
 
 	public static void main(String[] args) {
-
+		
 		/*SistemaDeSom ss =  new SistemaDeSom();
 		ss.setTensao(220);
 		ss.setPotencia(1500);
@@ -40,4 +42,5 @@ public class Main {
 		System.out.println(ht);
 		
 	}
+
 }

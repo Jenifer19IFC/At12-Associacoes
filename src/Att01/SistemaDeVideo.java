@@ -1,5 +1,7 @@
-public class SistemaDeVideo extends EquipamentoEletronico {
+package Att01;
 
+public class SistemaDeVideo extends EquipamentoEletronico {
+	
 	private String marca;
 	private String modelo;
 	private String tipo;
@@ -50,4 +52,5 @@ public class SistemaDeVideo extends EquipamentoEletronico {
 		builder.append("]");
 		return builder.toString();
 	}
+
 }

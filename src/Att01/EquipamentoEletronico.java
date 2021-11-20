@@ -1,5 +1,7 @@
-public class EquipamentoEletronico {
+package Att01;
 
+public class EquipamentoEletronico {
+	
 	private float tensao;
 	private float consumo;
 	
@@ -28,5 +30,5 @@ public class EquipamentoEletronico {
 		builder.append("]");
 		return builder.toString();
 	}
-	
+
 }

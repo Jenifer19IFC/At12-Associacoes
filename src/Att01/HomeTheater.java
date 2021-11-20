@@ -1,5 +1,7 @@
-public class HomeTheater {
+package Att01;
 
+public class HomeTheater {
+	
 	protected SistemaDeSom som;
 	protected SistemaDeVideo video;
 	
@@ -31,4 +33,5 @@ public class HomeTheater {
 		builder.append("]");
 		return builder.toString();
 	}
+
 }
